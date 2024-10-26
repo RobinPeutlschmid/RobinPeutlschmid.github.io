@@ -284,6 +284,11 @@ section.success {
       max-width: 32%;
     }
   }
+
+/* Specify background color for portfolio section */
+#portfolio {
+    background-color: #000000; /* Change this to your desired color */
+}
   /* A large grid might need four columns on widescreen layouts */
   /* @media (min-width: 1380px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
