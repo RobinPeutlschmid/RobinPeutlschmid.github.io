@@ -26,17 +26,17 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 778a3a #80B3FF
-  primary-rgb: "119, 138, 58" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 778a3a 
+  primary-rgb: "119, 138, 58"
+  secondary: 2c3e50
+  secondary-dark: 233140
 
 # Footer settings
 footer:
   copyright: Robin Peutlschmid
   location: Location
-  social: Around the Web
-  credits: Credits
+  social: Where you can find me
+  credits: Contact
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -54,7 +54,7 @@ address:
   - line: Brno, Czech repúblic
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Feel free to contact me for any inquiries. You can also find me on <a href="https://www.artstation.com/robinpeutlschmid">Artstation</a>.'
 
 # Build settings
 markdown: kramdown
