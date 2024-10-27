@@ -303,6 +303,13 @@ section.success {
     }
 }
 
+@media(max-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 auto 15px;
+        max-width: 90%;
+    }
+}
+
 /* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
     .portfolio-flex-grid .portfolio-flex-row {
