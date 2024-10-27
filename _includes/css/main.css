@@ -111,12 +111,12 @@ header {
     color: #fff;
     background: url('../../img/ArtforSocials.jpg') no-repeat center center;
     background-size: cover;
-    margin-top: 100px;
+    padding: 50px 0;
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 header img {
