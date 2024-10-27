@@ -35,17 +35,30 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color: #924E29;
+
 }
 
 hr.centered-line {
     width: 100%;
     border: none;
-    border-top: 2px solid white;
+    border-top: 2px solid #ffffff;
     margin: 20px 0;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
 }
+
+hr.centered-line-yellow {
+    width: 100%;
+    border: none;
+    border-top: 5px solid #924E29;
+    margin: 20px 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 
 hr.star-light,
@@ -57,6 +70,7 @@ hr.star-primary {
     border-top: solid 5px;
     text-align: center;
     overflow: visible;
+    background-color: transparent;
 }
 
 hr.star-light:after,
@@ -85,7 +99,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .img-centered {
@@ -97,10 +111,11 @@ header {
     color: #fff;
     background: url('../../img/ArtforSocials.jpg') no-repeat center center;
     background-size: cover;
+    margin-top: 100px;
 }
 
 header .container {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
@@ -161,6 +176,20 @@ header .intro-text .skills {
     }
 }
 
+.gallery-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    gap: 10px;
+    scroll-behavior: smooth; /* Smooth scroll effect */
+  }
+  
+  .gallery-container img {
+    flex: 0 0 auto; /* Prevents images from shrinking */
+    width: 800px;   /* Set a fixed width */
+  }
+  
+
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -196,6 +225,10 @@ section h2 {
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
+}
+
+.success p{
+    color: #924E29;
 }
 
 @media(max-width:767px) {
@@ -287,7 +320,7 @@ section.success {
 
 /* Specify background color for portfolio section */
 #portfolio {
-    background-color: #000000; /* Change this to your desired color */
+    background-color: #F9F0E1; /* Change this to your desired color */
 }
   /* A large grid might need four columns on widescreen layouts */
   /* @media (min-width: 1380px) {
@@ -393,6 +426,14 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }};
 }
 
+.footer p{
+    color: #fff;
+}
+
+.footer-above h3{
+    color: #fff;
+}
+
 .btn-social {
     display: inline-block;
     width: 50px;
@@ -440,6 +481,7 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background-color:#F9F0E1;
 }
 
 .portfolio-modal .modal-content h2 {

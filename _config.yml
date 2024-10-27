@@ -3,7 +3,7 @@ title: Robin Peutlschmid
 email: rpeutlschmid@gmail.com
 remote_theme: jeromelachaud/freelancer-theme
 url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "My name is Robin Peutlschmid, and I am a 3D artist, Technical Artist, Environment Artist, Level and Game Designer."
 keywords: "your keywords, separated by commas"
 skills: "Game Designer - Level Designer - Environment Artist - 3D Artist"
 meta_author: Peutlschmid Robin
@@ -26,10 +26,10 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 778a3a 
-  primary-rgb: "119, 138, 58"
-  secondary: 2c3e50
-  secondary-dark: 615a1e
+  primary: F9F0E1
+  primary-rgb: "44, 44, 44"
+  secondary: 924E29
+  secondary-dark: 755620
 
 # Footer settings
 footer:
