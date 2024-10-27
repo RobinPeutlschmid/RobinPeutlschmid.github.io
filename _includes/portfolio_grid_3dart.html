@@ -1,25 +1,29 @@
-<!-- Portfolio Grid Section -->
-<section id="portfolio">
-  <div class="container portfolio-flex-grid">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>3D Environments</h2>
-        <hr class="centered-line-yellow">
+<div id="environment-portfolio">
+  <!-- Portfolio Grid Section -->
+  <section id="portfolio">
+    <div class="container portfolio-flex-grid">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>3D Environments</h2>
+          <hr class="centered-line-yellow">
+        </div>
       </div>
-    </div>
-    <div class="portfolio-flex-row">
-      {% for post in site.posts %}
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
+      <div class="portfolio-flex-row">
+        {% for post in site.posts %}
+        {% if post.modal-id == 4 or post.modal-id == 5 or post.modal-id == 6 or post.modal-id == 7 or post.modal-id == 8 %}
+        <div class="portfolio-flex-item portfolio-item">
+          <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
             </div>
-          </div>
-          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-        </a>
+            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          </a>
+        </div>
+        {% endif %}
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
-  </div>
-</section>
+  </section>
+</div>

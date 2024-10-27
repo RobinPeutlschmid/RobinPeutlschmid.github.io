@@ -227,8 +227,13 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
-.success p{
+.success p {
     color: #924E29;
+}
+
+.success ul li {
+    font-size: 1.2em; /* Increase the font size */
+    color: #924E29; /* Set the color to brown */
 }
 
 @media(max-width:767px) {
@@ -301,22 +306,24 @@ section.success {
 /* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
     .portfolio-flex-grid .portfolio-flex-row {
-      display: flex;
-      flex-flow: row wrap;
-      align-items: stretch;
-      justify-content: space-between;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+        justify-content: space-between;
     }
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 49%;
-      max-width: 49%;
+        flex: 1 1 auto; /* Allow items to grow and shrink */
+        max-width: 48%;
+        margin-bottom: 2%;
     }
-  }
-  @media (min-width: 960px) {
+}
+@media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 32%;
-      max-width: 32%;
+        flex: 1 1 auto; /* Allow items to grow and shrink */
+        max-width: 31%;
+        margin-bottom: 2%;
     }
-  }
+}
 
 /* Specify background color for portfolio section */
 #portfolio {
