@@ -24,6 +24,7 @@ a:active,
 a.active {
     outline: 0;
     color: #{{ site.color.secondary-dark }};
+    font-style: italic;
 }
 
 h1,
