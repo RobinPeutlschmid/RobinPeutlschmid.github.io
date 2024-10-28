@@ -13,7 +13,7 @@ description:
 
 Le Chat Noir is a short thriller noir game based in 1960s New York. 
 
-You play as Detective Casey. There's been a murder. You and your partner Detective Purrlock are sent to investigate. You slowly begin to realize that this case is different from all other cases. This caae is about you.
+You play as Detective Casey. There's been a murder. You and your partner Detective Purrlock are sent to investigate. You slowly begin to realize that this case is different from all other cases. This case is about you.
 
 
 You can download it [here](https://nickada.itch.io/lechatnoir).
