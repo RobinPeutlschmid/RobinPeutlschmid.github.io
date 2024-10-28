@@ -4,7 +4,7 @@ email: rpeutlschmid@gmail.com
 remote_theme: jeromelachaud/freelancer-theme
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "My name is Robin Peutlschmid, and I am a 3D artist, Technical Artist, Environment Artist, Level and Game Designer."
-keywords: "your keywords, separated by commas"
+keywords: "game designer, level designer, environment artist, 3d artist, technical artist, indie, game dev, gamebaze, robin peutlschmid"
 skills: "Game Designer - Level Designer - Environment Artist - 3D Artist"
 meta_author: Peutlschmid Robin
 
@@ -52,7 +52,7 @@ address:
   - line: Brno, Czech repúblic
 
 # Credits content
-credits: 'Feel free to contact me through the form or via email at <a href="mailto:rpeutlschmid@gmail.com">rpeutlschmid@gmail.com</a>.'
+credits: 'Feel free to contact me through the form or via email at <a href="mailto:rpeutlschmid@gmail.com" style="color: #F9F0E1;">rpeutlschmid@gmail.com</a>.'
 
 # Build settings
 markdown: kramdown
