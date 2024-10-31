@@ -183,11 +183,13 @@ header .intro-text .skills {
     padding: 10px;
     gap: 10px;
     scroll-behavior: smooth; /* Smooth scroll effect */
+    scroll-snap-type: x mandatory; /* Enable scroll snapping */
+    scroll-padding-left: 50%; /* Start the scroll in the center */
   }
   
   .gallery-container img {
     flex: 0 0 auto; /* Prevents images from shrinking */
-    width: 800px;   /* Set a fixed width */
+    width: 1000px;   /* Set a fixed width */
   }
   
 
